@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kerios – Satellite-Connected Door Tab</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ==== ANIMATED BACKGROUND ==== -->
+<div class="bg-animation"></div>
+
+<!-- ==== NAVBAR ==== -->
+<header class="navbar">
+    <div class="logo">
+        <img src="assets/logo.png" alt="Kerios Logo" class="logo-img">
+        <span>Kerios</span>
+    </div>
+    <a href="#contact" class="cta-btn">Get Early Access</a>
+</header>
+
+<!-- ==== HERO SECTION ==== -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Satellite-Powered Door Tab</h1>
+        <p>Stick Keiros on any door → satellite instantly beams the <strong>exact address</strong> to the delivery driver’s phone. No more “wrong building”.</p>
+        <a href="#how" class="btn-primary">See How It Works</a>
+    </div>
+    <div class="hero-visual">
+        <img src="assets/hero-bg.jpg" alt="Keiros on door" class="hero-img">
+    </div>
+</section>
+
+<!-- ==== PROBLEM ==== -->
+<section id="problem" class="section alt-bg">
+    <h2>The Delivery Nightmare</h2>
+    <div class="grid-3">
+        <div class="card">
+            <h3>Wrong Building</h3>
+            <p>Drivers waste 10-15 min hunting for the right entrance.</p>
+        </div>
+        <div class="card">
+            <h3>Failed PODs</h3>
+            <p>Photos don’t prove the parcel reached the correct door.</p>
+        </div>
+        <div class="card">
+            <h3>Customer Frustration</h3>
+            <p>Refunds & disputes eat margins.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ==== SOLUTION ==== -->
+<section id="how" class="section">
+    <h2>How Kerios Works</h2>
+    <div class="steps">
+        <div class="step">
+            <span class="step-num">1</span>
+            <h4>Stick Kerios</h4>
+            <p>Peel-and-stick tab on any door (apartment, office, gate).</p>
+        </div>
+        <div class="step">
+            <span class="step-num">2</span>
+            <h4>Satellite Lock</h4>
+            <p>Built-in GNSS chip grabs exact coordinates in < 2 s.</p>
+        </div>
+        <div class="step">
+            <span class="step-num">3</span>
+            <h4>Instant Push</h4>
+            <p>Address + live map link sent to driver’s phone via your app.</p>
+        </div>
+    </div>
+
+    <!-- Video Demo -->
+    <div class="video-wrapper">
+        <video controls poster="assets/hero-bg.jpg">
+            <source src="assets/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+<!-- ==== FEATURES ==== -->
+<section class="section alt-bg">
+    <h2>Why Teams Love Kerios</h2>
+    <div class="grid-4">
+        <div class="feature">
+            <h4>Zero GPS Drift</h4>
+            <p>Satellite + Wi-Fi fallback → 1 m accuracy indoors.</p>
+        </div>
+        <div class="feature">
+            <h4>Plug-and-Play SDK</h4>
+            <p>iOS • Android • React Native • Flutter</p>
+        </div>
+        <div class="feature">
+            <h4>Battery-Free</h4>
+            <p>Energy-harvesting from ambient light.</p>
+        </div>
+        <div class="feature">
+            <h4>Coming Soon</h4>
+            <p>Voice-guided wayfinding for drivers.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ==== CALL TO ACTION ==== -->
+<section id="contact" class="section cta-section">
+    <h2>Be the First to Ship with Keiros</h2>
+    <p>Join the pilot program – limited spots.</p>
+    <form class="cta-form">
+        <input type="email" placeholder="business@company.com" required />
+        <button type="submit" class="btn-primary">Request Access</button>
+    </form>
+</section>
+
+<!-- ==== FOOTER ==== -->
+<footer>
+    <p>© 2025 Keiros. All rights reserved.</p>
+</footer>
+
+<!-- JS (smooth scroll + particle animation) -->
+<script src="script.js"></script>
+</body>
+</html>
